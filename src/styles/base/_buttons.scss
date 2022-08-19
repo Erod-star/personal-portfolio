@@ -1,0 +1,25 @@
+@import "./colors";
+@import "./variables";
+
+.btn-primary {
+  background: $black-100;
+  border: none;
+  border-radius: $br-sm;
+  color: $white;
+  cursor: pointer;
+  font-family: $font-text;
+  height: 40px;
+  outline: none;
+  position: relative;
+  transition: 0.4s ease-in;
+  width: 120px;
+  z-index: 1;
+  &:hover {
+    box-shadow: inset -10.5em 0 0 0 $primary, inset 10.5em 0 0 0 $primary;
+    color: black;
+    font-weight: 500;
+  }
+}
+
+// TODO
+// .btn-loading{}

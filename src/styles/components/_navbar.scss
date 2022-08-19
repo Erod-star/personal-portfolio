@@ -1,0 +1,83 @@
+.navbar__main {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  transition: all 0.5s ease;
+  z-index: 99;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $black-600;
+  color: $white;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 3px solid $secondary;
+}
+
+.navbar li {
+  color: $white;
+  font-size: $f-xl;
+  margin-right: 15px;
+  transition: all 0.5s ease;
+  &:nth-last-child() {
+    margin-right: 0px;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.navbar a {
+  color: inherit;
+  font-size: $f-xl;
+  text-decoration: none;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.dev-logo {
+  margin-right: 50px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#toggler,
+.navbar label {
+  display: none;
+  &:hover {
+    color: $primary;
+  }
+}
+
+// Media querys
+
+// @media screen and (max-width: $bp-sm) {
+//   .nav-menu {
+//     width: 100%;
+//     max-height: 0px;
+//     overflow: hidden;
+//   }
+//   .nav-list {
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 20px;
+//   }
+//   .navbar label {
+//     display: inline-flex;
+//     align-items: center;
+//     cursor: pointer;
+//   }
+//   #toggler:checked ~ .nav-menu {
+//     max-height: 100%;
+//     // color: $primary;
+//   }
+// }

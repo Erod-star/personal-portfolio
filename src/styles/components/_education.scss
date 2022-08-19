@@ -1,0 +1,183 @@
+.education__main {
+  margin-top: 125px;
+  margin-bottom: 40px;
+  font-family: $font-text;
+}
+
+.education-title {
+  display: flex;
+  text-align: center;
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+.education-title h1 {
+  color: $primary;
+  font-size: 52px;
+  width: 100%;
+}
+
+.education-card-background {
+  align-items: center;
+  background-color: $primary;
+  border-radius: $br-xl;
+  display: flex;
+  height: 315px;
+  justify-content: space-evenly;
+  margin-bottom: 125px;
+  margin: 0% auto 20px auto;
+  position: relative;
+  transform: rotate(5deg);
+  transition: all 1s ease;
+  width: 510px;
+}
+
+.education-card,
+.course-card {
+  align-items: center;
+  display: flex;
+  background: $white;
+  border-radius: $br-xl;
+  justify-content: space-evenly;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 250px;
+  padding: 20px;
+  transform: rotate(-5deg);
+}
+
+.education-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.education-card span {
+  color: $gray-400;
+  font-size: $f-md;
+  margin-bottom: 25px;
+  font-family: $font-text;
+}
+
+.education-card ul {
+  list-style-position: inside;
+}
+
+.education-card li {
+  margin-bottom: 15px;
+}
+
+// ? ---- Courses --------
+// .courses-container {
+//   flex-direction: column;
+//   background-color: #fff;
+//   border: 10px solid $primary;
+//   border-radius: $br-xl;
+//   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+//   display: flex;
+//   height: 630px;
+//   justify-content: space-evenly;
+//   margin-bottom: 125px;
+//   margin: 0% auto 10px auto;
+//   margin-top: 100px;
+//   position: relative;
+//   width: 100%;
+// }
+
+// .courses-title {
+//   display: flex;
+//   justify-content: center;
+//   font-weight: bold;
+//   font-size: 36px;
+//   padding: 15px;
+// }
+
+// .course-card-background {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background: $primary;
+//   height: 230px;
+//   width: 360px;
+//   border-radius: $br-xl;
+//   transform: rotate(3deg);
+//   margin-bottom: 20px;
+// }
+
+// .course-card {
+//   flex-direction: column;
+//   height: 82%;
+//   width: 87%;
+//   transform: rotate(-3deg);
+//   padding: 10px;
+// }
+
+// .course-card h2 {
+//   color: $secondary;
+//   text-align: center;
+//   margin: 10px 10px;
+//   font-size: $f-xl;
+//   font-family: $font-text;
+// }
+
+// .course-card img {
+//   width: 70px;
+//   height: 60px;
+// }
+
+// .course-card span {
+//   font-family: $font-text;
+//   color: $gray;
+// }
+
+// ? Media querys
+
+// @media screen and (max-width: $bp-xxl) {
+//   .education-card-background {
+//     width: 430px;
+//   }
+// }
+
+// @media screen and (max-width: $bp-xl) {
+//   .education-card-background {
+//     width: 390px;
+//   }
+// }
+
+// @media screen and (max-width: $bp-lg) {
+//   .education-container {
+//     flex-direction: column;
+//   }
+//   .education-card-background {
+//     width: 530px;
+//     &:first-child {
+//       margin-bottom: 50px;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: $bp-sm) {
+//   .education-card-background {
+//     height: 280px;
+//     width: 370px;
+//   }
+//   .education-card,
+//   .course-card {
+//     width: 90%;
+//     height: 215px;
+//   }
+//   .education-title h1 {
+//     font-size: 38px;
+//   }
+// }
+
+// @media screen and (max-width: $bp-xxsm) {
+//   .education-card-background {
+//     height: 100%;
+//     width: 260px;
+//   }
+//   .education-card,
+//   .course-card {
+//     width: 90%;
+//     height: 100%;
+//   }
+// }

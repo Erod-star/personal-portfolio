@@ -1,0 +1,68 @@
+@import "./colors";
+@import "./variables";
+
+// * ------- Genreal config ------- *
+* {
+  font-family: $font-title;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  background-color: $black-400;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 100%;
+}
+
+ul {
+  list-style-image: url("../../assets/list-indicator.svg");
+}
+
+li {
+  font-family: $font-text;
+}
+
+::-webkit-scrollbar {
+  width: 1.1em;
+}
+
+::-webkit-scrollbar-track {
+  // background: hsl(120, 75%, 50% / 1);
+  // background: $primary;
+  background: transparent;
+  border-radius: 100vh;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  // background: hsl(120, 75%, 20% / 1);
+  // background: darken($color: $secondary, $amount: 10);
+  background: $secondary;
+  border-radius: 100vh;
+  // border: 0.25em solid hsl(120, 75%, 50% / 1);
+  // border: 0.25em solid $primary;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  // background: hsl(120, 75%, 15% / 1);
+  background: darken($color: $secondary, $amount: 10);
+}
+
+// * ------- General styles ------- *
+.block {
+  display: block;
+}
+
+.grid {
+  max-width: 85%;
+  margin: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}

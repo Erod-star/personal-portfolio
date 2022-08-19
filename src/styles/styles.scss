@@ -1,0 +1,12 @@
+@import "./base/colors";
+@import "./base/base";
+@import "./base/variables";
+@import "./base/buttons";
+
+// * Components
+@import "./components/_navbar";
+@import "./components/salute";
+@import "./components/about";
+@import "./components/education";
+@import "./components/experience";
+@import "./components/myStack";

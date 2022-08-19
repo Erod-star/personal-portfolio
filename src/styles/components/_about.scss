@@ -1,0 +1,195 @@
+.about__main {
+  display: flex;
+}
+
+.about-container {
+  align-items: center;
+  background-color: #fff;
+  border-radius: $br-xl;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 530px;
+  justify-content: space-evenly;
+  margin-bottom: 125px;
+  margin: 0% auto 20px auto;
+  position: relative;
+  width: 100%;
+}
+
+.about-image-background {
+  height: 460px;
+  width: 330px;
+  display: flex;
+  background-color: $primary;
+  border-radius: $br-md;
+  justify-content: center;
+  position: relative;
+  transform: rotate(7deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in;
+  &:hover {
+    background-color: $black-100;
+  }
+}
+
+.about-container img {
+  height: 460px;
+  border-radius: $br-xl;
+  transform: rotate(-7deg);
+  transition: all 0.3s ease-in;
+}
+
+.about-info {
+  transition: all 0.3s ease-in;
+  width: 550px;
+}
+
+.about-info p {
+  font-family: $font-text;
+  &:nth-child(1) {
+    color: $secondary;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  &:nth-child(2) {
+    color: $black-100;
+    font-weight: bold;
+    font-size: $f-md;
+    line-height: 35px;
+  }
+  &:nth-child(3) {
+    font-size: $f-md;
+  }
+}
+
+.abilities-wrapper {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.aptitudes-list {
+  width: 40%;
+}
+
+.interests-list {
+  width: 50%;
+}
+
+.aptitudes-list h2,
+.interests-list h2 {
+  color: $secondary;
+  text-align: left;
+  position: relative;
+  left: -20px;
+  width: 100%;
+}
+
+.aptitudes-list ul li,
+.interests-list ul li {
+  margin-bottom: 5px;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  text-align: right;
+}
+
+// ? Media querys
+
+@media screen and (max-width: $bp-xxl) {
+  .about-image-background,
+  .about-container img {
+    height: 430px;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  // Check icons size
+  .about-image-background,
+  .about-container img {
+    height: 410px;
+    width: 270px;
+  }
+  .about-info {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: $bp-lg) {
+  // Check icons size
+  .about-container {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 40px 0px;
+    margin: 0% auto 10px auto;
+  }
+  .about-info {
+    width: 580px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: $bp-md) {
+  .about-info {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: $bp-sm) {
+  .about-info {
+    width: 380px;
+  }
+  .buttons-wrapper {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: $bp-xsm) {
+  .about-info {
+    width: 280px;
+  }
+  .abilities-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .abilities-wrapper h2 {
+    text-align: center;
+  }
+  .interests-list {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: $bp-xxsm) {
+  .about-image-background,
+  .about-container img {
+    height: 320px;
+    width: 215px;
+  }
+  .about-info {
+    width: 240px;
+  }
+  .about-info p {
+    font-family: $font-text;
+    font-size: $f-md;
+    &:nth-child(1) {
+      font-size: $f-xxl;
+    }
+    &:nth-child(2) {
+      font-size: $f-sm;
+    }
+    &:nth-child(3) {
+      font-size: $f-md;
+    }
+  }
+  .aptitudes-list h2,
+  .interests-list h2 {
+    font-size: $f-xl;
+  }
+  .aptitudes-list ul li,
+  .interests-list ul li {
+    font-size: $f-md;
+  }
+}
