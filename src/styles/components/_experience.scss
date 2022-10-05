@@ -38,10 +38,10 @@
   border: 7px dashed $primary;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 385px;
   justify-content: center;
   padding: 0px 40px;
-  width: 700px;
+  width: 60%;
 }
 
 .experience-details h2 {
@@ -66,66 +66,66 @@
 
 // ? Media querys
 
-// @media screen and (max-width: $bp-xxl) {
-//   .company-card img {
-//     height: 320px;
-//     width: 320px;
-//   }
-//   .experience-details {
-//     width: 500px;
-//   }
-// }
+@media screen and (max-width: $bp-xxl) {
+  .company-card img {
+    height: 320px;
+    width: 320px;
+  }
+  .experience-details {
+    width: 500px;
+  }
+}
 
-// @media screen and (max-width: 1100px) {
-//   .company-card img {
-//     height: 240px;
-//     width: 240px;
-//   }
-//   .experience-details {
-//     height: 100%;
-//     width: 450px;
-//   }
-//   .experience-details h2 {
-//     padding-top: 15px;
-//     font-size: 36px;
-//   }
-//   .experience-details p {
-//     font-size: $f-sm;
-//   }
-//   .experience-details button {
-//     font-size: $f-sm;
-//     width: 100px;
-//     height: 30px;
-//     margin-bottom: 20px;
-//   }
-// }
+@media screen and (max-width: 1100px) {
+  .company-card img {
+    height: 240px;
+    width: 240px;
+  }
+  .experience-details {
+    height: 100%;
+    width: 450px;
+  }
+  .experience-details h2 {
+    padding-top: 15px;
+    font-size: 36px;
+  }
+  .experience-details p {
+    font-size: $f-sm;
+  }
+  .experience-details button {
+    font-size: $f-sm;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+}
 
-// @media screen and (max-width: 924px) {
-//   .experience-section {
-//     flex-direction: column;
-//     &:nth-last-child(1) {
-//       flex-direction: column;
-//     }
-//   }
-//   .company-card img {
-//     margin-bottom: 20px;
-//   }
-// }
+@media screen and (max-width: 924px) {
+  .experience-section {
+    flex-direction: column;
+    &:nth-last-child(1) {
+      flex-direction: column;
+    }
+  }
+  .company-card img {
+    margin-bottom: 20px;
+  }
+}
 
-// @media screen and (max-width: $bp-xsm) {
-//   .experience-details {
-//     width: 300px;
-//   }
-// }
+@media screen and (max-width: $bp-xsm) {
+  .experience-details {
+    width: 300px;
+  }
+}
 
-// @media screen and (max-width: $bp-xxsm) {
-//   .experience-details {
-//     width: 200px;
-//   }
-//   .experience-details h2 {
-//     font-size: $f-xl;
-//   }
-//   .experience-details span {
-//     font-size: 12px;
-//   }
-// }
+@media screen and (max-width: $bp-xxsm) {
+  .experience-details {
+    width: 200px;
+  }
+  .experience-details h2 {
+    font-size: $f-xl;
+  }
+  .experience-details span {
+    font-size: 12px;
+  }
+}

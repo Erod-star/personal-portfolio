@@ -16,22 +16,22 @@ const Education = () => {
       <div className="flex mb-5 education-container">
         <div className="education-card-background">
           <div className="education-card">
-            <div>
-              <h2>University of Colima Preparatory Number 1</h2>
+            <div className="education-card-content">
+              <h2> Bachillerato #1, University of Colima</h2>
               <span>From 2017 to 2019</span>
               <ul className="mt-5">
-                <li>Adquired basic knowledge for professional life</li>
+                <li>Acquired basic knowledge for professional life</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="education-card-background">
           <div className="education-card">
-            <div>
-              <h2>Faculty of Telematics, University of Colima</h2>
-              <span>From 2019 to Current day</span>
+            <div className="education-card-content">
+              <h2>School of Telematics, University of Colima</h2>
+              <span>From 2019 to 2023</span>
               <ul className="mt-5">
-                <li>Currently studying the software engineering carrer</li>
+                <li>Currently studying the software engineering major</li>
               </ul>
             </div>
           </div>

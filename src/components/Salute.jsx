@@ -9,9 +9,9 @@ const Salute = () => {
     <div className="salute__main" data-aos="fade-right">
       <div className="info-container">
         <div className="text-container">
-          <h5>Hello,</h5>
+          <span>Hello,</span>
           <h1>I'm Edson Rodríguez</h1>
-          <p>I am a Junior Software Engineer</p>
+          <p>I am a Software Engineer</p>
         </div>
         <div className="media-container flex f-jsb">
           <a href="https://www.instagram.com/edson_gov/?hl=es">

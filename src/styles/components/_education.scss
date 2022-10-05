@@ -46,6 +46,10 @@
   transform: rotate(-5deg);
 }
 
+.education-card-content {
+  padding: 20px;
+}
+
 .education-card h2 {
   font-size: 28px;
   margin-bottom: 10px;
@@ -131,53 +135,55 @@
 
 // ? Media querys
 
-// @media screen and (max-width: $bp-xxl) {
-//   .education-card-background {
-//     width: 430px;
-//   }
-// }
+@media screen and (max-width: $bp-xxl) {
+  .education-card-background {
+    width: 430px;
+  }
+}
 
-// @media screen and (max-width: $bp-xl) {
-//   .education-card-background {
-//     width: 390px;
-//   }
-// }
+@media screen and (max-width: $bp-xl) {
+  .education-card-background {
+    width: 390px;
+  }
+}
 
-// @media screen and (max-width: $bp-lg) {
-//   .education-container {
-//     flex-direction: column;
-//   }
-//   .education-card-background {
-//     width: 530px;
-//     &:first-child {
-//       margin-bottom: 50px;
-//     }
-//   }
-// }
+@media screen and (max-width: $bp-lg) {
+  .education-container {
+    flex-direction: column;
+  }
+  .education-card-background {
+    width: 530px;
+    &:first-child {
+      margin-bottom: 50px;
+    }
+  }
+}
 
-// @media screen and (max-width: $bp-sm) {
-//   .education-card-background {
-//     height: 280px;
-//     width: 370px;
-//   }
-//   .education-card,
-//   .course-card {
-//     width: 90%;
-//     height: 215px;
-//   }
-//   .education-title h1 {
-//     font-size: 38px;
-//   }
-// }
+@media screen and (max-width: $bp-sm) {
+  .education-card-background {
+    height: 280px;
+    width: 230px;
+  }
+  .education-card,
+  .course-card {
+    width: 90%;
+    height: 270px !important;
+  }
+  .education-title h1 {
+    font-size: 38px;
+  }
+  .education-card-content {
+    padding: 35px 15px;
+  }
+}
 
-// @media screen and (max-width: $bp-xxsm) {
-//   .education-card-background {
-//     height: 100%;
-//     width: 260px;
-//   }
-//   .education-card,
-//   .course-card {
-//     width: 90%;
-//     height: 100%;
-//   }
-// }
+@media screen and (max-width: $bp-xxsm) {
+  .education-card-background {
+    height: 100%;
+  }
+  .education-card,
+  .course-card {
+    width: 90%;
+    height: 100%;
+  }
+}

@@ -5,7 +5,15 @@ import developer from "../assets/salute/myself.jpg";
 
 const About = () => {
   const handleDownload = () => {
-    console.log("Downloading...");
+    fetch("Resumé - Edson Arturo Rodríguez Govea.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Resumé - Edson Arturo Rodríguez Govea.pdf";
+        alink.click();
+      });
+    });
   };
 
   return (
