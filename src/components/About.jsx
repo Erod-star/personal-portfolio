@@ -1,16 +1,16 @@
 import React from "react";
 
 // ? Images
-import developer from "../assets/salute/myself.jpg";
+import developer from "../assets/salute/edson-photo.jpg";
 
 const About = () => {
   const handleDownload = () => {
-    fetch("Resumé - Edson Arturo Rodríguez Govea.pdf").then((response) => {
+    fetch("Resume - Edson Rodriguez.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Resumé - Edson Arturo Rodríguez Govea.pdf";
+        alink.download = "Resume - Edson Rodriguez.pdf";
         alink.click();
       });
     });

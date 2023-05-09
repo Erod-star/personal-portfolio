@@ -17,7 +17,7 @@
   justify-content: space-between;
   margin: 70px 0px;
   width: 100%;
-  &:nth-last-child(1) {
+  &:nth-child(even) {
     flex-direction: row-reverse;
   }
 }
@@ -103,7 +103,7 @@
 @media screen and (max-width: 924px) {
   .experience-section {
     flex-direction: column;
-    &:nth-last-child(1) {
+    &:nth-child(even) {
       flex-direction: column;
     }
   }

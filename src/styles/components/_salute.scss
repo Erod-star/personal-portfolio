@@ -9,14 +9,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  // background-color: green;
-  width: 50%;
-  margin-left: 8%;
+  width: 100%;
+  align-items: center;
+  margin-left: 0px;
 }
 .text-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   width: 100%;
 }
@@ -79,39 +79,39 @@
 
 // * D E V   I M A G E
 
-.images-container {
-  bottom: 0;
-  height: 80%;
-  position: absolute;
-  right: 100px;
-  width: 45%;
-}
+// .images-container {
+//   bottom: 0;
+//   height: 80%;
+//   position: absolute;
+//   right: 100px;
+//   width: 45%;
+// }
 
-.images-container img {
-  bottom: 0;
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
-  transition: bottom 1s, left 1s;
-}
+// .images-container img {
+//   bottom: 0;
+//   height: 100%;
+//   left: 50%;
+//   position: absolute;
+//   transform: translateX(-50%);
+//   transition: bottom 1s, left 1s;
+// }
 
-.image-dev {
-  height: 400px;
-  width: 330px;
-}
+// .image-dev {
+//   height: 400px;
+//   width: 400px;
+// }
 
-.images-container:hover .image-background {
-  bottom: 40px;
-}
+// .images-container:hover .image-background {
+//   bottom: 40px;
+// }
 
-.images-container:hover .image-dev {
-  left: 55%;
-}
+// .images-container:hover .image-dev {
+//   left: 55%;
+// }
 
 // ? Media querys
 
-@media screen and (max-width: $bp-xxl) {
+@media screen and (max-width: $bp-xxxl) {
   .images-container {
     display: none;
   }

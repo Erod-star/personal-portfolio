@@ -2,7 +2,7 @@ import React from "react";
 
 // ? Images
 import background from "../assets/salute/saluteImgBackground.svg";
-import developer from "../assets/salute/myself.jpg";
+import developer from "../assets/salute/edson-photo-no-bg.png";
 
 const Salute = () => {
   return (
@@ -28,10 +28,10 @@ const Salute = () => {
           </a>
         </div>
       </div>
-      <div className="images-container">
+      {/* <div className="images-container">
         <img className="image-background" src={background} alt="Background" />
         <img className="image-dev" src={developer} alt="Developer" />
-      </div>
+      </div> */}
     </div>
   );
 };

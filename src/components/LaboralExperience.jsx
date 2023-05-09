@@ -3,6 +3,7 @@ import React from "react";
 // ? Images
 import hmhLogo from "../assets/experience/hmh-logo.png";
 import freewayLogo from "../assets/experience/FreeWay.JPG";
+import sonatafyLogo from "../assets/experience/sonatafy-logo.png";
 
 const LaboralExperience = () => {
   const navigation = (url) => {
@@ -85,6 +86,46 @@ const LaboralExperience = () => {
             <button
               className="mt-4 btn-primary"
               onClick={() => navigation("https://freeway.mx/")}
+            >
+              Visit web site!
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="experience-section" data-aos="flip-right">
+        <div className="company-card">
+          <img src={sonatafyLogo} alt="sonatafy" />
+        </div>
+        <div className="experience-details">
+          <h2>Sonatafy Technology 🚀</h2>
+          <span>Worked as a Frontend developer working mainly with Vue.js</span>
+          <p>
+            Sonatafy Technology is an established and diversified company
+            preferred by clients for best-in-class Nearshore software
+            development. We specialize in building solutions for SaaS,
+            healthcare, life sciences, and financial industries as we understand
+            software compliance, scalability, IP Security, and creating
+            long-term relationships
+          </p>
+          <br />
+          <ul>
+            <li>
+              Improvement on the client administrative website both on usability
+              and troubleshooting implementing automated tests.
+            </li>
+            <li>
+              Contribution to a better planning for the data management
+              architecture from the backend.
+            </li>
+          </ul>
+          <p>
+            <strong>Technologies implemented:</strong> Vue.js, Jest, Cypress,
+            Node.js, AWS, GraphQL, PostgresSQL, Git, GitHub.
+          </p>
+          <div className="buttons-wrapper">
+            <button
+              className="mt-4 btn-primary"
+              onClick={() => navigation("https://sonatafy.com/")}
             >
               Visit web site!
             </button>

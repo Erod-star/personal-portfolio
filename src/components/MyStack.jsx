@@ -24,6 +24,11 @@ const MyStack = () => {
           <i className="fa-brands fa-github fa-3x " />
           <i className="fa-brands fa-gitlab fa-3x " />
           <i className="fa-solid fa-f fa-3x" />
+          <i class="fa-brands fa-aws fa-3x" />
+          <i class="fa-brands fa-node-js fa-3x" />
+          <i class="fa-solid fa-g fa-3x" />
+          <i class="fa-solid fa-c fa-3x" />
+          <i class="fa-solid fa-p fa-3x" />
         </div>
       </div>
     </div>

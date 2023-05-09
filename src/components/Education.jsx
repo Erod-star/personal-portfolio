@@ -31,14 +31,16 @@ const Education = () => {
               <h2>School of Telematics, University of Colima</h2>
               <span>From 2019 to 2023</span>
               <ul className="mt-5">
-                <li>Currently studying the software engineering major</li>
+                <li>
+                  Acquired the essential knowledge for a software developer
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
 
-      {/* 
+      {/*
       Aquí esta el bugazo del overflow
       <div
         className="courses-container"
