@@ -1,5 +1,11 @@
 import React from "react";
 
+//  ? Images
+import graphqlIcon from "../assets/stack/graphql-icon.svg";
+import flutterIcon from "../assets/stack/flutter-icon.svg";
+import cypressIcon from "../assets/stack/cypress-icon.svg";
+import postgresIcon from "../assets/stack/postgresql-icon.svg";
+
 const MyStack = () => {
   return (
     <div
@@ -23,12 +29,12 @@ const MyStack = () => {
           <i className="fa-brands fa-git-alt fa-3x " />
           <i className="fa-brands fa-github fa-3x " />
           <i className="fa-brands fa-gitlab fa-3x " />
-          <i className="fa-solid fa-f fa-3x" />
+          <img src={flutterIcon} alt="F" />
           <i class="fa-brands fa-aws fa-3x" />
           <i class="fa-brands fa-node-js fa-3x" />
-          <i class="fa-solid fa-g fa-3x" />
-          <i class="fa-solid fa-c fa-3x" />
-          <i class="fa-solid fa-p fa-3x" />
+          <img src={graphqlIcon} alt="G" />
+          <img src={cypressIcon} alt="Cy" />
+          <img src={postgresIcon} alt="Cy" />
         </div>
       </div>
     </div>

@@ -30,7 +30,13 @@
   place-items: center;
 }
 
-.technologies-container i {
+.technologies-container img {
+  height: 48px;
+  width: 48px;
+}
+
+.technologies-container i,
+.technologies-container img {
   color: $white;
   cursor: pointer;
   transition: ease 300ms;
@@ -44,13 +50,17 @@
   &:nth-child(5) {
     color: #0070ba;
   }
-  &:nth-child(3) {
+  &:nth-child(3),
+  &:nth-child(13) {
     color: $primary;
   }
-  &:nth-child(4) {
+  &:nth-child(4),
+  &:nth-child(14),
+  &:nth-child(15) {
     color: #58c394;
   }
-  &:nth-child(6) {
+  &:nth-child(6),
+  &:nth-child(7) {
     color: #cf649a;
   }
   &:nth-child(8) {
