@@ -20,7 +20,7 @@ const LaboralExperience = () => {
         <div className="experience-details">
           <h2>HMH - Sistemas &#128187;</h2>
           <span>
-            Worked as Frontend development (from august 2019 to current date)
+            Worked as Frontend development (from May 2021 to November 2022)
           </span>
           <p>
             Software company specialized in web development using React.js and
@@ -60,7 +60,7 @@ const LaboralExperience = () => {
           <h2>Freeway Company &#128667;</h2>
           <span>
             Worked as mobile developer and team lead (from November 2021 to
-            current date)
+            November 2022)
           </span>
           <p>
             FreeWay is a startup company focused on the development of mobile
@@ -98,7 +98,10 @@ const LaboralExperience = () => {
         </div>
         <div className="experience-details">
           <h2>Sonatafy Technology 🚀</h2>
-          <span>Worked as a Frontend developer working mainly with Vue.js</span>
+          <span>
+            Worked as a Frontend developer working mainly with Vue.js (from
+            November 2022 to current date)
+          </span>
           <p>
             Sonatafy Technology is an established and diversified company
             preferred by clients for best-in-class Nearshore software

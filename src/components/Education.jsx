@@ -1,7 +1,6 @@
 import React from "react";
 
 // ? Images
-import reactLogo from "../assets/education/react-logo.png";
 
 const Education = () => {
   return (

@@ -30,11 +30,11 @@ const MyStack = () => {
           <i className="fa-brands fa-github fa-3x " />
           <i className="fa-brands fa-gitlab fa-3x " />
           <img src={flutterIcon} alt="F" />
-          <i class="fa-brands fa-aws fa-3x" />
-          <i class="fa-brands fa-node-js fa-3x" />
+          <i className="fa-brands fa-aws fa-3x" />
+          <i className="fa-brands fa-node-js fa-3x" />
           <img src={graphqlIcon} alt="G" />
           <img src={cypressIcon} alt="Cy" />
-          <img src={postgresIcon} alt="Cy" />
+          <img src={postgresIcon} alt="Pg" />
         </div>
       </div>
     </div>
